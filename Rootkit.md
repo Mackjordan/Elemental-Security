@@ -11,7 +11,7 @@
 *Embedded in the operating system.*
 
 ## Persistent:
-*Enabled when the system starts up and stays active until the system is shut down.* 
+*Enabled when the system starts up and stays active until the system is shut down.*
 
 ## Application:
 *Runs in current system memory when a specific application is launched.*

@@ -1,12 +1,12 @@
 # Spyware Overview
 
-### Code that collects information without consent. Can be used to manipulate configuration settings. Spreads through user interaction.
+ *Code that collects information without consent. Can be used to manipulate configuration settings. Spreads through user interaction.*
 
 ## Keylogger:
 *Captures Keystrokes and mouse / pad movements.*
 
 ## Monitors:
-*Used for tracking user activities.* 
+*Used for tracking user activities.*
 
 ## Adware:
 *Used for delivering targeted advertising based on user activity.*
