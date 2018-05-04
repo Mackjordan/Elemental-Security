@@ -37,10 +37,20 @@
 ### Metamorphic:
 *Capable of recompiling itself into a new form.*
 
+____
+# Detection, Monitoring & Remediation
 
-#### VirusTotal.com is online tool that aggregates many anti-virus products and online scan engines to check for viruses that the user's own anti-virus may have missed, or to verify against any false positives.Files up to 256 MB can be uploaded to the website or sent via email. Anti-virus software vendors can receive copies of files that were flagged by other scans but passed by their own engine, to help improve their software and, by extension, VirusTotal's own capability. Users can also scan suspect URLs and search through the VirusTotal dataset.
+### Indicators of compromise (IOC):  
 
-#### You can add VirusTotal's functionality into your overall infrastructure using a script that can be automated to test resources against VirusTotal’s database.
+Indicators of compromise to a specific artifacts ( e.g. virus signature, IP address, Malicious URL, command & control connection, file changes. ) That with a high degree of confidence indicates an intrusion. Most malware will attempt to be covert and try to leave as few of artifacts as possible. Conversely, extortion attacks such as Ransomware and Adware are attention grabbing. 
 
-#### Here’s an example.
-### [Gawen/virustotal](https://github.com/Gawen/virustotal)
+
+### Antivirus (AV) software:
+
+Antivirus software can be used to identify, contain, and in some cases eliminate known Malicious code. AV software relies on virus definition files (Known as DAT files) to identify malware. The definition files must be continually. Updated by the software publisher. Best Practices recommend using more than one type of AV in the enterprise.
+Anti-malware software identifies infections caused by a pantheon of malware including viruses, worms, Trojan horses, rootkits, spyware, keyloggers, ransomware and adware.
+
+[VirusTotal.com](https://VirusTotal.com) is online tool that aggregates many anti-virus products and online scan engines to check for viruses that the user's own anti-virus may have missed, or to verify against any false positives.Files up to 256 MB can be uploaded to the website or sent via email. Anti-virus software vendors can receive copies of files that were flagged by other scans but passed by their own engine, to help improve their software and, by extension, VirusTotal's own capability. Users can also scan suspect URLs and search through the VirusTotal dataset.
+
+> #### You can add VirusTotal's functionality into your overall infrastructure using a script that can be automated to test resources against VirusTotal’s database. Here’s an example of a script that can be used to automate the process of searching your files using VirusTotal.com. It's written in Python and  
+> #### [Gawen/virustotal](https://github.com/Gawen/virustotal)
