@@ -6,9 +6,9 @@ The objective of vulnerability scanning is to identify vulnerabilities in the ta
 * Scanning authentication can be credentialed or non-credentialed.
 
 ### Non-intrusive Vulnerability Scanners
-Non-intrusive scanning applications identify the active operating system, applications, and ports by scanning the target system’s attributes ( e,g, inspecting the file system for specific files or files versions, checking the regerity for specific values, looking for security updates, discover which services are listening.
+Non-intrusive scanning applications identify the active operating system, applications, and ports by scanning the target system’s attributes ( e,g, inspecting the file system for specific files or files versions, checking the regiristy for specific values, looking for security updates, discover which services are listening.
 * Non-intrusive scanners can report on but do not attempts to exploit vulnerabilities.
-* Non-intrusive scanners can report on misconfigurations.
+* Non-intrusive scanners can report on misconfiguration.
 * Non-intrusive scanners do not take action to resolve security problems.
 
 ### intrusive Vulnerability Scanners
@@ -44,4 +44,4 @@ Vulnerability scanning and configuration analysis best practices include:
 * Determining Frequency of scanning.
 * Confirming Scope.
 * Ensuring the scanning / analysis application is current.
-* Establishing and documenting timelines and thresholds
+* Establishing and documenting timelines and thresholds.
