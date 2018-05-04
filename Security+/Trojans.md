@@ -1,7 +1,5 @@
-#Trojans Overview
-*Malicious code disguised as a legitimate application (Malicious code embedded in music, video, games, greeting cards and utilities.)*
-
-*Spread through user interaction.*
+# Trojans Overview
+*Malicious code disguised as a legitimate application (Malicious code embedded in music, video, games, greeting cards and utilities.) Spread through user interaction.*
 
 ## RAT:
 *Remote Access Trojan (RAT) objective is privileged remote administration.*
