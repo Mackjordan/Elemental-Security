@@ -61,9 +61,9 @@ responsive action.
 | Instructing | Making a configuration change (Example: Shut down port 80)  | Active/Inline |
 | Deception | Allowing the attacker to think the attack was successful in order to gather information about the Intrusion. (Example: Honeypot ) | Active/Inline |
 
-### UTM
-Unified Threat Management (UTM) is the evolution of the
-traditional firewall into an all inclusive device performing
+### Unified Threat Management (UTM)
+
+A UTM is the evolution of the traditional firewall into an all inclusive device performing
 multiple security functions such as firewall, IDS/IPS, gateway
 anti-virus and anti-spam, content filtering, data loss preventing,
 and user activity audit reporting.
