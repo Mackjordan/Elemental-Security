@@ -1,4 +1,4 @@
-### Troubleshooting Security Issues
+# Troubleshooting Security Issues
 As a security practitioners, it is important to be aware of
 ”common security issues," how to identify the issue, how to
 troubleshoot the issue, and the path to resolution.
@@ -236,3 +236,105 @@ Troubleshooting:
 * Ensure that multi-factor components are working correctly
 * Review account settings
 * Review logs
+
+### 5 Common Personnel Security Issues
+1. Policy Violation
+2. Insider threat
+3. Social engineering
+4. Social media
+5. Personal email
+
+### Policy Violation
+Issue:
+* Policy violation
+
+Impact:
+* Depends upon the violation
+
+Cause(s):
+* Lack of awareness and/or understanding
+* Accidental/ inadvertent
+* Policy impediment
+
+Response:
+* Talk to the user
+* Training
+* Technical controls or configuration adjustment
+* Sanctions
+
+### Insider Threat
+Issue:
+* Insider threat (employee, trusted partner, imposter)
+
+Impact:
+* Significant
+
+Casue(s):
+* Anger / disconnect
+* Financial pressure
+* Extortion
+* Sabotage
+* Malicious intent
+
+Response:
+* Organizational awareness (”trust but verify”)
+* Incident reporting encouragement
+* Defense in depth preventive, deterrent, and detective controls
+
+### Social Engineering
+Issue:
+* Vulnerable to a social engineering attack
+
+Impact:
+* Significant
+
+Cause(s):
+* Lack of awareness or understanding susceptibility
+
+Response:
+* Training and awareness programs
+* Social engineering vulnerability assessments
+* Defense in depth preventive, deterrent and detective controls
+
+### Social Media
+* Unauthorized or damaging social media posts
+* Use of social media from inside the network
+
+Impact
+* Confidentiality violations
+* Reputational damage
+* Malware distribution
+
+Cause(s):
+* Lack of awareness or understanding
+* Not having a social media policy
+* Allowing access to social media sites
+
+Response:
+* Social media policy
+* User training and awareness
+* Technical controls restricting access
+* Or if allowed, enhanced malware controls (perhaps sandboxing)
+
+### Personal Email
+
+Issue
+* Use of personal email
+
+Impact:
+* Confidentiality violation
+* Malware distribution
+* Evades archiving
+* SPAM
+
+Cause(s):
+* Lack of awareness or understanding
+* Not having an email policy
+* Allowing access to personal email sites (e.g. Gmail)
+
+Response:
+
+* Or if allowed, extending email-related controls to approved sites.
+* Personal email policy (component of Acceptable Use)
+* Technical controls restricting access.
+* User training and awareness
