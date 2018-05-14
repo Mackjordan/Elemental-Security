@@ -1,4 +1,4 @@
-# Development Life Cycle
+]# Development Life Cycle
 
 ### Traditional Software Develoment
 The traditional software development model is known as SDLC (system development |ifecycle)..s a linear (sequential) model.
@@ -73,7 +73,7 @@ Three important internal processes support the current software development proc
 * "Change control" manages changes to artifacts, such as code changes or documentation changes.
 * "Provisioning" deploys (makes available) versions to various resources for simultaneous development.
 
-### Version / Change Control Vocabulary. 
+### Version / Change Control Vocabulary.
 
 ##### Baseline
 * An approved revision of a document or source file from which subsequent changes can be made.
