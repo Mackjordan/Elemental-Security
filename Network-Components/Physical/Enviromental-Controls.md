@@ -74,7 +74,7 @@ Fire protection is comprised of three elements:
 ![](http://lib.store.yahoo.net/lib/sarsam/firechart.gif)
 
 ### Fire Suppression
-##### Water-based 
+##### Water-based
 * Sprinkler system effective on Class A (ordinary combustible) fires
 
 ##### Dry-Pipe

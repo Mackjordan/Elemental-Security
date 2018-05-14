@@ -1,15 +1,15 @@
-# DLP
-Data loss prevention (DLP) tools are designed to detect and
-prevent data exfiltration (unauthorized release or removal of
+# Data loss prevention (DLP)
+DLP tools are designed to detect and
+prevent data ex-filtration (unauthorized release or removal of
 data).
-* DLP technologies locate and catalogue sensitive data (based on
+* DLP technologies locate and catalog sensitive data (based on
 a predetermined set of rules or criteria).
 * DLP tools monitor target data while in use, in motion, and at
 rest.
 
 ### DLP Location
 | Location | Description |
-|----------|-------------| 
+|----------|-------------|
 | Network-based (On premise) | Network-based (hardware or virtual appliance) deals with data in motion and is usually located on the network perimeter. |
 | Storage-based | Storage-based (software) operates on long-term storage (archive) | End-point based | End-point based (software) operates on a local device and focuses on data-in-use.
 | Cloud-based | Cloud-based operates In “the cloud” data in use, motion, and at rest |
