@@ -8,7 +8,7 @@ Security Assertion Markup Language (SAML) is an open standard that provides user
 ##### SAML Components
 * One-to-many model.
 * End-user (Principal)
-* Idenity Provider (IdP) = SAML-Compliant authentication service.
+* Idenity Provider (IdP) = SAML-Compliant authentication service.]
 * Service provider = SAML-Compliant web application.
 
 ### SAML Process
