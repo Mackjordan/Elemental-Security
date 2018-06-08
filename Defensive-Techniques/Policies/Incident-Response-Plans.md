@@ -41,3 +41,57 @@ Incident response exercises should be conducted on a periodic basis to assure re
 4. Eradication
 5. Recovery
 6. Lessons Learned
+
+http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+
+### Incident Response Phases
+| Phase | Objective(s) |
+|-------|--------------|
+| Preparation | Establish response capability. Prevent incidents from occurring. |
+| Detection | Identify and analyze predictors of compromise (POC) and indicators of compromise (IOC). Examples include IDS, SIEM, AV, File integrity checking, logs, network, flows, threat intelligence, people. |
+| Containment | Minimize the damage. Examples include shutting down a system, disconnecting it from a network, disabling certain functions. |
+| Eradication | Eliminate components of the incident. Examples include deleting malware, disabling breached accounts, mitigating associated vulnerabilities. |
+| Recovery | Restore systems to normal operations. |
+
+### Preparation
+In preparation of incident, an organizations would:
+* Ensure that appropriate preventive, deterrent, and detection controls are in place. (Defense-in-Depth).
+* Set response criteria based on scope and severity'(from single infected device through entire infected network).  
+* Have trained responders.
+* Have documented procedures.
+* Know how to handle (not destroy) evidence.
+* Have internal capability or an established relationship with a forensics firm.
+
+### Identification
+Early identification can help an organization minimize the number of infected systems, which will lessen the magnitude of the recovery effort and the amount of damage the organization sustains.
+* Monitor alerts (anti-malware software, IDS/IPS, log analysis).
+* Monitor advisories and industry bulletins for news of new malware strains, trends, and activity.
+* Encourage users to report unusual or suspicious activity, and monitor and follow up on reports.
+
+### Containment
+Malware containment has two major components:
+1. Identifying and understanding the malware.
+   * Responders should be trained in how to handle evidence
+   * Malware files submitted for analysis.
+2. Stopping the spread of the malware and preventing further damage.
+   * Organizations should be prepared (with management approval) to block or shut down services and/or devices.
+   * All external connections should be evaluated for command and control (C2) channels.
+
+### Eradication
+Eradication ranges from simple to complex depending upon the veracity of the malware. Containment methods should remain in place until management authorizes lifting the measures.
+* Quarantine and delete
+* Remove files and/or registry settings
+* Remove drive
+
+### Recover
+Recovery is closely linked to the eradication method. The more invasive the eradication; the more significant the recovery.
+* Rebuild/reimage/restore.
+
+### Lessons Learned
+Post-incident lessons learned should be evaluated and integrated into organizational processes and controls.
+* Exactly what happened, and at what times?
+* How well did staff and management perform in dealing with the incident?
+* What would the staff and management do differently the next time a similar incident occurs?
+* What corrective actions can prevent similar incidents in the future?
+* What precursors or indicators should be watched for in the future to detect similar incidents?
+* What additional tools or resources are needed to detect, analyze, and mitigate future incidents?
