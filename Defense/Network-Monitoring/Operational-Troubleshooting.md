@@ -1,9 +1,7 @@
 # Troubleshooting Security Issues
-As a security practitioners, it is important to be aware of
-”common security issues," how to identify the issue, how to
+As a security practitioners, it is important to be aware of ”common security issues," how to identify the issue, how to
 troubleshoot the issue, and the path to resolution.
-* A root cause analysis (RCA) is a method of problem solving used
-for identifying the root causes of faults or problems.
+* A root cause analysis (RCA) is a method of problem solving used for identifying the root causes of faults or problems.
 
 
 ### Root Cause Analysis (5 Whys)
