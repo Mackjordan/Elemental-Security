@@ -11,22 +11,28 @@ and usage.
 * MDM solutions can be local or cloud-based.
 
 ### Mobile Device Ownership & Deployment
+When determining how to incorporate mobile devices securely in your organization, you need to consider a wide range of issues, including how security will be enforced, how all the policies will be enforced, and ultimately, what devices will be supported. You can choose from a variety of device deployment models to support your security strategy, ranging from a pure employee-owned model (BYOD) to a strict corporate-owned model, with several hybrid models in between. Each of these models has advantages and disadvantages.
+
 ###### COBO:
 Company-issued Business Only.
 * Users get issued a device for professional use.
 * Company owned.
+In the corporate-owned deployment model, also known as corporate-owned, business only (COBO), the company supplies employees with a mobile device that is restricted to company-only use. The disadvantage of this model is that employees have to carry two devices, one personal and one for work, and then separate functions between the devices based on purpose of use in each instance. The advantage is that the corporation has complete control over its devices and can apply any security controls desired without interference from other device functionality.
 ###### CYOD:
 Choose Your Own Device.
 * Users get to select their own device for professional use.
 * Company owned.
+The choose your own device (CYOD) deployment model is similar to BYOD in concept in that it gives users a choice in the type of device. In most cases, the organization constrains this choice to a list of acceptable devices that can be supported in the organization. Because the device is owned by the organization, it has greater flexibility in imposing restrictions on device use in terms of apps, data, updates, and so forth.
 ###### COPE:
 Company-issued Personal Enabled.
 * Users get issued a device for both professional and personal use.
 * Company owned.
+In the corporate owned, personally enabled (COPE) deployment model, employees are supplied a mobile device that is chosen and paid for by the organization, but they are given permission to use it for personal activities. The organization can decide how much choice and freedom employees get with regard to personal use of the device. This allows the organization to control security functionality while dealing with the employee dissatisfaction associated with the traditional method of device supply, corporate-owned business only (COBO).
 ###### BYOD:
 Bring Your Own Device.
 * Users get to select their own device for professional use.
 * User owned.
+The bring your own device (BYOD) deployment model has many advantages in business, and not just from the perspective of minimizing device cost for the organization. Users tend to prefer to have a single device rather than carry multiple devices. Users have less of a learning curve on devices they already know how to use or have an interest in learning. This model is popular in small firms and in organizations that employ a lot of temporary workers. The big disadvantage is that employees will not be eager to limit their use of their personal device based on corporate policies, so corporate control will be limite
 
 ### Device Tracking
 
