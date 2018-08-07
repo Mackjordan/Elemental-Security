@@ -24,14 +24,17 @@ Multiple definitions for third-party APPs.
 * Plug-in to software (may be authorized or unauthorized).
 * Applications that have not been approved or vetted by the device manufacturer.
 
-##### Rooting (Android)
-Attaining privileged control (root) over the device operating system including the ability to modify settings and run specrallzed APPs.
-
 ##### Jailbreaking (Apple)
-Jailbreaking is the bypass of several types of Apple prohibitions for the end user including installing non-approved APPS via sideloading.
+Jailbreaking is the bypass of several types of Apple prohibitions for the end user including installing non-approved APPS via sideloading. Jailbreaking is a process by which the user escalates their privilege level, bypassing the operating system’s controls and limitations. The user still has the complete functionality of the device, but also has additional capabilities, bypassing the OS-imposed user restrictions. There are several schools of thought concerning the utility of jailbreaking, but the important issue from a security point of view is that running any device with enhanced privileges can result in errors that cause more damage, because normal security controls are typically bypassed.
+
+##### Rooting (Android)
+Attaining privileged control (root) over the device operating system including the ability to modify settings and run specrallzed APPs. Rooting a device is a process by which OS controls are bypassed, and this is the term frequently used for Android devices. Whether the device is rooted or jailbroken, the effect is the same: the OS controls designed to constrain operations are no longer in play and the device can do things it was never intended to do, good or bad.
 
 ##### Sideloading
 Transferring data between devices.
+
+##### Third-Party App Stores
+Many mobile devices have manufacturer-associated app stores from which apps can be downloaded to their respective devices. These app stores are considered by an enterprise to be third-party app stores, as the contents they offer come from neither the user nor the enterprise in nature. Currently there are two main app stores, the Apple App Store for iOS devices and Google Play for Android devices. The Apple App Store is built on a principle of exclusivity, and stringent security requirements are highly enforced for the apps that are offered. Google Play has fewer restrictions, which has translated into some security issues stemming from apps. Managing what apps a user can add to the device is essential because many of these apps can create security risks for an organization. This issue becomes significantly more complex with employee-owned devices and access to corporate data stores. The segmentation options discussed earlier to separate work and personal spaces are offered on a limited number of mobile devices, so the ability to control this access becomes problematic. Virtually all segmentation is done via an additional app, the MDM solution. Devices permitted access to sensitive corporate information should be limited to company-owned devices, allowing more stringent control.
 
 ### Feature-related Concerns
 | Concern | Description |

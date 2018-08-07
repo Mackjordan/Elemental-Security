@@ -34,6 +34,9 @@ location transceiver (base station).
 with each generation; however, cellular networks are still
 vulnerable to denial of service attacks.
 
+### Carrier Unlocking
+Most mobile devices in the United States come locked to a carrier, while in other parts of the world they are unlocked, relying upon a subscriber identity module (SIM) for connection and billing information. This is a byproduct of the business market decisions made early in the mobile phone market lifecycle and has remained fairly true to date. If you have a carrier-locked device and you attempt to use a SIM from another carrier, the device will not accept it unless you unlock the device. Carrier unlocking is the process of programming the device to sever itself from the carrier. This is usually done through the inputting of a special key sequence that unlocks the device.
+
 ### Wi-Fi
 Wi-Fi is a technology for wireless local area networking with devices
 based on IEEE 802.11 standards
