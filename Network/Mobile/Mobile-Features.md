@@ -1,119 +1,17 @@
-# Mobile Connection Methods
+# Common Mobile Device Hardware Features  
+Mostly all mobile devices share a common set of features. 
 
-Mobile Device
-A mobile device is a generic term for any communication device
-that is portable.
-* A laptop is an all-in-one personal computer that can easily be
-moved and used in a variety of locations. Laptops use the same
-operating systems as desktops.
-* A tablet is a touchscreen device that has thin flat form factor.
-Tablets require specialized operating systems.
-* A smartphone is pocket-sized touchscreen device that
-incorporates traditional cell phone features. Smartphones
-require specialized operating systems
+### Camera Use
+Many mobile devices include on-board cameras, and the photos/videos they take can divulge information. This information can be associated with anything the camera can image—whiteboards, documents, even the location of the device when the photo/video was taken via geo-tagging (discussed in the upcoming “GPS Tagging” section). Another challenge presented by mobile devices is the possibility that they will be used for illegal purposes. This can create liability for the company if it is a company-owned device. Despite all the potential legal concerns, possibly the greatest concern of mobile device users is that their personal photos will be lost during a device wipe originated by the company.
 
-### Connection Methods
-| Method | Description |
-|--------|-------------|
-| Cellular | Radio frequency distributed network |
-| WiFi | Radio frequency contained network |
-| SATCOM | Satellite communications network |
-| Bluetooth | Shortwave network |
-| NFC | Nearfield communications network |
-| ANT | ”Wearables” sensor network |
-| IR | Optical short-wave network |
-| USB | Wireless USB bus |
+### Short Message Service (SMS) and Multimedia Messaging Service (MMS)
+SMS / MMS are standard protocols used to send messages, including multimedia content in the case of MMS, to and from mobile devices over a cellular network. SMS is limited to short, text-only messages of fewer than 160 characters and is carried over the signaling path of the cellular network when signaling data is not being sent. SMS dates back to the early days of mobile telephony in the 1980s, while MMS is a more recent development designed to support sending multimedia content to and from mobile devices. Because of the content connections that can be sent via MMS in particular, and SMS in certain cases, it is important to at least address these communication channels in relevant policies.
 
-### Cellular
-A cellular network is a radio frequency distributed network that
-divides geographic areas into cells. Cells are serviced by a fixed
-location transceiver (base station).
-* Cellular networks are used to transmit voice and data.
-* Range is variable dependent upon the cell frequency.
-* Cellular is a mature technology. Security controls have improved
-with each generation; however, cellular networks are still
-vulnerable to denial of service attacks.
+### External Media
+External media refers to any item or device that can store data. From flash drives to hard drives, music players, smartphones, even smart watches, if it can store data, it is a pathway for data exfiltration. External media can also deliver malware into the enterprise. The risk is evident: these devices can carry data into and out of the enterprise, yet they have become synonymous with today’s tech worker. The key is to develop a policy that determines where these devices can exist and where they should be banned. And then follow the plan with monitoring and enforcement.
 
-### Carrier Unlocking
-Most mobile devices in the United States come locked to a carrier, while in other parts of the world they are unlocked, relying upon a subscriber identity module (SIM) for connection and billing information. This is a byproduct of the business market decisions made early in the mobile phone market lifecycle and has remained fairly true to date. If you have a carrier-locked device and you attempt to use a SIM from another carrier, the device will not accept it unless you unlock the device. Carrier unlocking is the process of programming the device to sever itself from the carrier. This is usually done through the inputting of a special key sequence that unlocks the device.
+### Recording Microphone
+Many of today’s electronic devices, from smartphones and smartwatches to devices such as the online assistants from Amazon and Google, even toys, have the ability to record audio information. Recording microphones can be used to record conversations, collecting sensitive data without the parties under observation even being aware of the activity. As with other high-tech gadgets, the key is to determine the policy of where recording microphones can be used and the rules for their use.
 
-### Wi-Fi
-Wi-Fi is a technology for wireless local area networking with devices
-based on IEEE 802.11 standards
-* Devices that can use Wi-Fi technology include personal computers,
-video game consoles, smartphones, digital cameras, tablet
-computers, smart TVs, digital audio players and modern printers.
-* Wi-Fi compatible devices can connect to the Internet via a WLAN and
-a wireless access point based on the IEEE 802.11 standards.
-* Range depends on the frequency band, radio power output, antenna
-gain, and antenna type as well as the modulation technique.
-* Lessons 2.4 and 36.1 detail security concerns.
-
-### SATCOM
-Satellite communications (SATCOM) systems relay and amplify
-radio telecommunications signals via a transponder.
-Communications satellites use an array of radio and microwave
-frequencies.
-* Communications satellites are used for television, telephone,
-radio, Internet, and military applications.
-* Security concerns include exploit of design flaws that can result
-in injection, interception, and manipulation.
-
-### Bluetooth
-Bluetooth is a shortwave radio low power technology for
-exchanging data based on the 802.15 standard. Originally
-designed to replace RS-232 data cables.
-* Bluetooth uses include headsets, hearing aids, wireless
-speakers, PC input/out, health sensors, real-time location
-systems, GPS receivers, bar coders, traffic control devices, and
-game consoles.
-* Range is 10-24m depending upon the version.
-
-Subject to bluejacking and bluesnarfing:
-* Bluejacking is injecting a unsolicited message.
-* Bluesnarfing is unauthorized device access through a
-Bluetooth discovery connection.
-
-### Near field communication (NFC)
-
-Near field communication (NFC) is a short range wireless
-technology that requires close proximity and/or device contact.
-NFC is rooted in RFID technology.
-* NFC is used in commerce (e.g. contactless payment systems
-such as Apple Pay), smartphone (sharing contacts, photos,
-videos or files), identity and access tokens, and gaming.
-* Range is less than 20 cm.
-* Security concerns include eavesdropping, interception, and
-theft.
-
-### ANT
-ANT is a proprietary (but open access) multi-cast wireless sensor
-network technology designed for the Internet of Things (iot).
-* ANT is primarily incorporated into sports and fitness sensors
-(wearables), though it may additionally be used for other
-purposes.
-* The transceivers/receivers are embedded in equipment such as
-heart rate monitors, watches, cycling power meters, cadence
-meters, and distance and speed monitors monitoring a user's
-performance (e.g. Fitbit).
-* Range is approximately 30 meters
-* Security concerns eavesdropping, interception, impersonation.
-
-### Infrared
-Infrared (IR) is an optical (infrared light) shortwave
-communication technology. IR is sometimes referred to as
-beaming.
-* IR is used in remote control devices, portable devices such as
-mobile telephones, laptops, cameras, printers, and medical
-devices.
-* Range is <1m and requires line of sight.
-* IR has been displaced by Wi-Fi and Bluetooth.
-
-### Universal Serial bus (USB)
-Wireless USB is a short—range, high—bandwidth radio bus
-communication protocol.
-* Wireless USB is used in game controllers, printers, scanners,
-digital cameras, portable media players, hard disk drives, and
-USB flash drives.
-* Security concerns include packet loss and corruption.
-* Range is 3-10 meters.
+### Cellular Radio
+A cellular radio frequency link establishes a connection to the switching systems of a mobile phone operator, which provides access to the public switched telephone network (PSTN). Modern mobile telephone services use a cellular network architecture, and, therefore, mobile telephones are called cellular telephones or cell phones, in North America. In addition to telephony, 2000s-era mobile phones support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications (infrared, Bluetooth), business applications, video games, and digital photography. Mobile phones offering only those capabilities are known as feature phones; mobile phones which offer greatly advanced computing capabilities are referred to as smartphones.
