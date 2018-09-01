@@ -1,0 +1,4 @@
+# Shimming
+a shim is a small library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. Shims can be used to support an old API in a newer environment, or a new API in an older environment. Shims can also be used for running programs on different software platforms than they were developed for.
+
+Shims for older APIs typically come about when the behavior of an API changes, thereby causing compatibility issues for older applications which still rely on the older functionality; in such cases, the older API can still be supported by a thin compatibility layer on top of the newer code. Shims for newer APIs are defined as: "a shim is a library that brings a new API to an older environment, using only the means of that environment." 
