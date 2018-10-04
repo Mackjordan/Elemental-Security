@@ -36,7 +36,7 @@ Shared responsibility for educating employees, managing user access, implementin
 
 
 ### Termination
-Termination ends employment. How termination is handled depends upon the specific circumstances (friendly/unfriendly) and transition arrangements that have been made with the employee.
+Termination is the process of ending someone’s employment. How termination is handled depends upon the specific circumstances (friendly/unfriendly) and transition arrangements that have been made with the employee.
 * Tasks include removing the employee from the payroll and benefits system, recovering physical assets (e.g. smartphone), access control assets (e.g. token, smartcard, keys), deleting or disabling local and remote access, deleting or disabling user accounts and access permission, archiving documents and email, and reassigning file folder permissions.
 * Termination related tasks should be documented (checklist/procedure).
 
