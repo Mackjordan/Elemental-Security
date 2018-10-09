@@ -99,3 +99,4 @@ Attacks to know.
 ## Zero-Day
 > * A Zero-day: threat is the discovery of a previously unknown vulnerability for which there is no fix.
 > * A zero-day attack occurs in the time period between when a exploit is developed and when a patch has been developed and when a patch has been released or a compensating control identified. 
+
