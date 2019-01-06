@@ -35,3 +35,5 @@ The primary objective of a firewall is to isolate network segments by controllin
 | Destination | Where the traffic is going to (host, range, wildcard, ANY)|
 | Port | Listening port (e.g. HTTP is port 80)|
 | Deny | Last rule at the end of a ACL to block any traffic that wasn’t previously allowed can be a statement (explicit) or a command (implicit)|
+
+
